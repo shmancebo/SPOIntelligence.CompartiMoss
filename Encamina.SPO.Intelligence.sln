@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encamina.SPO.Intelligence.Portal", "Encamina.SPO.Intelligence.SPOManager\Encamina.SPO.Intelligence.Portal.csproj", "{9D548777-24BB-4FE0-AD5E-645D57957211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encamina.SPO.Intelligence.Search", "Encamina.SPO.Intelligence.Search\Encamina.SPO.Intelligence.Search.csproj", "{3BAD4536-53CB-4B70-A950-DFD202617A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encamina.SPO.Intelligence.Services", "Encamina.SPO.Intelligence.Services\Encamina.SPO.Intelligence.Services.csproj", "{1C82A5EC-D9DB-4B30-BB88-CAFEF4C6AAB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encamina.SPO.Intelligence.Webhooks", "Encamina.SPO.Intelligence.Webhooks\Encamina.SPO.Intelligence.Webhooks.csproj", "{47B45E45-8367-4528-BDBC-8159194B23C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{18D422BC-FA08-405A-934B-DAA21A74C708}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encamina.SPO.Intelligence.AzureFunctions", "Encamina.SPO.Intelligence.AzureFunctions\Encamina.SPO.Intelligence.AzureFunctions.csproj", "{519FC8A5-D04E-48D4-8A47-C9CEB3AFDBB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D548777-24BB-4FE0-AD5E-645D57957211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D548777-24BB-4FE0-AD5E-645D57957211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D548777-24BB-4FE0-AD5E-645D57957211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D548777-24BB-4FE0-AD5E-645D57957211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAD4536-53CB-4B70-A950-DFD202617A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAD4536-53CB-4B70-A950-DFD202617A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAD4536-53CB-4B70-A950-DFD202617A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAD4536-53CB-4B70-A950-DFD202617A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C82A5EC-D9DB-4B30-BB88-CAFEF4C6AAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C82A5EC-D9DB-4B30-BB88-CAFEF4C6AAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C82A5EC-D9DB-4B30-BB88-CAFEF4C6AAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C82A5EC-D9DB-4B30-BB88-CAFEF4C6AAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B45E45-8367-4528-BDBC-8159194B23C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B45E45-8367-4528-BDBC-8159194B23C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B45E45-8367-4528-BDBC-8159194B23C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B45E45-8367-4528-BDBC-8159194B23C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D422BC-FA08-405A-934B-DAA21A74C708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D422BC-FA08-405A-934B-DAA21A74C708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D422BC-FA08-405A-934B-DAA21A74C708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D422BC-FA08-405A-934B-DAA21A74C708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519FC8A5-D04E-48D4-8A47-C9CEB3AFDBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519FC8A5-D04E-48D4-8A47-C9CEB3AFDBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519FC8A5-D04E-48D4-8A47-C9CEB3AFDBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519FC8A5-D04E-48D4-8A47-C9CEB3AFDBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CB571AE-D5F4-4DA6-B65D-14E23E51D408}
+	EndGlobalSection
+EndGlobal

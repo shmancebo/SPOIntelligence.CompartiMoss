@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SharePoint.Client" Version="14.0.4762.1000" />
+    <PackageReference Include="Microsoft.SharePoint.Client.Online.CSOM" Version="15.0.4859.1003" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Encamina.SPO.Intelligence.Services\Encamina.SPO.Intelligence.Services.csproj" />
+    <ProjectReference Include="..\Encamina.SPO.Intelligence.SPOManager\Encamina.SPO.Intelligence.Portal.csproj" />
+  </ItemGroup>
+
+</Project>

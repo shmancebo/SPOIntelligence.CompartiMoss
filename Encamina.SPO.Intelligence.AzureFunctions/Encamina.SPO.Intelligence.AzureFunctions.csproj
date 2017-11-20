@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>    
+    <PackageReference Include="Microsoft.Azure.Search" Version="3.0.4" />    
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.2" />    
+    <PackageReference Include="Microsoft.ProjectOxford.Common" Version="1.0.324" />    
+    <PackageReference Include="Microsoft.ProjectOxford.Vision" Version="1.0.393" />    
+    <PackageReference Include="Microsoft.SharePoint.Client" Version="14.0.4762.1000" />    
+    <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.6906.1200" />    
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Encamina.SPO.Intelligence.Search\Encamina.SPO.Intelligence.Search.csproj" />
+    <ProjectReference Include="..\Encamina.SPO.Intelligence.Services\Encamina.SPO.Intelligence.Services.csproj" />
+    <ProjectReference Include="..\Encamina.SPO.Intelligence.SPOManager\Encamina.SPO.Intelligence.Portal.csproj" />
+    <ProjectReference Include="..\Encamina.SPO.Intelligence.Webhooks\Encamina.SPO.Intelligence.Webhooks.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>
