@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CongnitveManager
-{
+{//
     public class CelebrityService
     {
         public ContentResult MakeAnalysisCelebrity(Stream image)
